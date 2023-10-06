@@ -5,9 +5,10 @@
  *
  * Return: Always 0 (Success)
  */
-int main (void)
+
+int main(void)
 {
-	char n[] = "Programming is like building a multilingual puzzle\n" ;
-	puts (n);
+	char n[] = "\"Programming is like building a multilingual puzzle\n";
+	puts(n); /*like magic*/
 	return (0);
 }
