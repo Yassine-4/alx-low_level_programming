@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $CFILE | gcc -Wall -S main.c -o main.s
+echo $CFILE | gcc -Wall -S 100-main.c -o main.s
