@@ -1,0 +1,2 @@
+#!/bin/bash
+echo $CFILE | gcc -Wall -S main.c -o main.s
