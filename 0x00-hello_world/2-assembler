@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -Wall -s 0-main.c -o main.s
+echo $CFILE | gcc -Wall -s 2-main.c -o main.s
