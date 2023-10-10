@@ -8,12 +8,12 @@
  */
 int main(void)
 {
-	char c;
 	char a;
 
-	for (c = 'a'; c <= 'z'; c++)
-		for (c = 'A'; c <= 'Z'; c++)
-	printf("%c", c,a);
+	for (a = 'a'; a <= 'z'; a++)
+		printf("%c", a);
+	for (a = 'A'; a <= 'Z'; a++)
+	printf("%c", a);
 	printf("\n");
 	return (0);
 }
