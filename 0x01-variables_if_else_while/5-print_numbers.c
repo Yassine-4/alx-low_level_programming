@@ -8,10 +8,10 @@
  */
 int main(void)
 {
-	char a;
+	int a;
 
-	for (a = 'a''f''r' ; a <= 'd''p''z'; a++)
-		putchar(a);
-	putchar('\n');
+	for (a = 0 ; a < 10 ; a++)
+		printf("%d", a);
+	printf("\n");
 	return (0);
 }
