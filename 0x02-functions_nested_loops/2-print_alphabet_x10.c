@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * main - Entry point
- * Return: Always 0 (Success)
+ * print_alphabet_x10 - Make the alphabet x10
+ * Return: void
  */
 void print_alphabet_x10(void)
 {
